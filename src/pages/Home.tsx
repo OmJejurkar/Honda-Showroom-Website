@@ -43,19 +43,19 @@ const Home = () => {
               {
                 name: 'Activa 6G',
                 image: '../images/activa6gblack.jpg',
-                price: '$16,499',
+                price: '₹160,499',
                 category: 'Scooter'
               },
               {
                 name: 'Unicorn',
                 image: '../images/unicornblack.jpg',
-                price: '$14,399',
+                price: '₹140,399',
                 category: 'Bike'
               },
               {
                 name: 'X-Blade',
                 image: '../images/xbladeblue.jpg',
-                price: '$9,299',
+                price: '₹99,299',
                 category: 'Sports Bike'
               }
             ].map((model, index) => (

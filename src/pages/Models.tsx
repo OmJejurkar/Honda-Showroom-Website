@@ -20,7 +20,7 @@ const bikes: Bike[] = [
     id: 1,
     name: 'Activa 6G',
     category: 'Scooter',
-    price: '$16,499',
+    price: '₹1,00,499',
     image: '../images/activa6gblack.jpg',
     specs: {
       engine: '999cc liquid-cooled inline-four',
@@ -33,7 +33,7 @@ const bikes: Bike[] = [
     id: 2,
     name: 'Dio',
     category: 'Scooter',
-    price: '$14,399',
+    price: '₹1,14,399',
     image: '../images/dioblue.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -46,7 +46,7 @@ const bikes: Bike[] = [
     id: 3,
     name: 'Activa 125',
     category: 'Scooter',
-    price: '$9,299',
+    price: '₹99,299',
     image: '../images/activa125black.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -59,7 +59,7 @@ const bikes: Bike[] = [
     id: 4,
     name: 'Grazia',
     category: 'Scooter',
-    price: '$9,299',
+    price: '₹98,299',
     image: '../images/graziablack.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -72,7 +72,7 @@ const bikes: Bike[] = [
     id: 4,
     name: 'CD-110',
     category: 'Bike',
-    price: '$9,299',
+    price: '₹98,299',
     image: '../images/cd110gray.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -85,7 +85,7 @@ const bikes: Bike[] = [
     id: 5,
     name: 'LIVO',
     category: 'Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/livoblue.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -98,7 +98,7 @@ const bikes: Bike[] = [
     id: 6,
     name: 'Shine',
     category: 'Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/shineblack.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -111,7 +111,7 @@ const bikes: Bike[] = [
     id: 7,
     name: 'SP-125',
     category: 'Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/sp125red.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -124,7 +124,7 @@ const bikes: Bike[] = [
     id: 8,
     name: 'Unicorn',
     category: 'Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/unicornblack.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -137,7 +137,7 @@ const bikes: Bike[] = [
     id: 9,
     name: 'Hornet 2.0',
     category: 'Sports Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/hornetblack.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -150,7 +150,7 @@ const bikes: Bike[] = [
     id: 10,
     name: 'X-Blade',
     category: 'Sports Bike',
-    price: '$9,299',
+    price: '₹90,299',
     image: '../images/xbladeblue.jpg',
     specs: {
       engine: '1084cc parallel-twin',
@@ -182,7 +182,7 @@ const Models = () => {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-lg font-medium ${
+                className={`px-4 py-2 rounded-lg font-medium ₹{
                   selectedCategory === category
                     ? 'bg-red-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
